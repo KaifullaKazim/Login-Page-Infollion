@@ -1,6 +1,6 @@
 # Login-Page-Infollion
 
-                                                        Login Page
+                                                        Fully responsive Login Page
 This is a simple login page template built with HTML and CSS. It provides a responsive layout for users to log in using their email and password, 
 or through alternative login options such as OTP, Google, or LinkedIn.
 ![image](https://github.com/KaifullaKazim/Login-Page-Infollion/assets/113112009/33aa6ee6-57e4-446c-84df-c302cb92a6ed)
