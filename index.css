@@ -1,0 +1,173 @@
+#container{
+    display: flex;
+    justify-content: center;
+}
+#t1{
+    text-align: center;
+    font-family: Times New Roman;
+    font-weight: 100px;
+    font-size: 20px;
+    margin-top: 10px;
+}
+body{
+    display: flex;
+    box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.75);
+    width: 80;
+    margin: 10px 250px 20px 250px;
+}
+
+#main-body{
+    text-align: center;
+}
+
+#email{
+    background-color:lightgray;
+    margin-top: 36px;
+    border-radius: 50px;
+    border-bottom:solid 2px orange;
+    height: 35px;
+    border-top: 0px;
+    border-left: 0px;
+    border-right: 0px;
+
+}
+
+#password{
+    background-color:lightgray;
+    margin-top: 36px;
+    border-radius: 50px;
+    border-bottom:solid 2px orange;
+    height: 35px;
+    border-top: 0px;
+    border-left: 0px;
+    border-right: 0px;
+
+
+}
+
+#login{
+    margin-top: 36px;
+    border-radius: 50px;
+    background-color: darkorange;
+    height:40px;
+    width: 380px;
+    margin-bottom: 40px;
+    font-size: 16px;
+    font-family: 'Times New Roman';
+    font-weight: 500;
+    color: aliceblue;
+}
+
+#otplogin{
+    margin-top: 36px;
+    border-radius: 50px;
+        background-color: lightgray;
+        height:35px;
+        width: 380px;
+        margin-bottom: 40px;
+        font-size: 15px;
+        font-family: 'Times New Roman';
+        font-weight: 500;
+        color: black;
+}
+#differentlogins{
+    margin-top:1px;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 25px;
+}
+#googlelogin{
+    margin-top: 15px;
+    display: flex;
+    justify-content: center;
+    color:white;
+    border: solid 2px blue;
+    background-color: blue;
+    width: 180px;
+    text-align: center;
+    border-width: 0.5px;
+}
+#googlelogin:hover,#linkedinlogin:hover{
+    cursor: pointer;
+}
+
+#signingoogle{
+    margin:15px 0 0 5px;
+    font-weight: bold;
+    font-size: 14px;
+}
+
+#googleimage{
+    margin-right:1px;
+    background-color: white;
+    height: fit-content;
+}
+
+#linkedinlogin{
+    margin-top: 15px;
+    display: flex;
+    justify-content: center;
+    border: solid 2px lightskyblue;
+    background-color:lightskyblue;
+    color: white;
+    width: 180px;
+    margin-left: 30px;
+    border-radius: 5px;
+    border-width: 0.5px;
+}
+
+#signinlinkedin{
+    margin:15px 0 0 5px;
+    color: white;
+    justify-content: center;
+    font-weight: bold;
+    font-size: 14px;
+}
+
+#linkedin{
+    display: flex;
+}
+
+#linkedinimage{
+    margin-top:5px
+}
+
+#googlelogin:hover, #linkedinlogin:hover {
+    cursor: pointer;
+}
+
+@media screen and (max-width: 768px) {
+    body {
+        margin: 10px 20px 20px;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    #leftpart {
+        display: none;
+    }
+
+    #rightpart {
+        width: 100%;
+    }
+
+    #email, #password, #login, #otplogin, #googlelogin, #linkedinlogin {
+        width: 100%;
+        max-width: 100%;
+    }
+
+    #differentlogins {
+        flex-direction: column;
+    }
+
+    #googlelogin, #linkedinlogin {
+        margin-top: 10px;
+        margin-left: 0;
+    }
+}
+
+
+
+
+
+
