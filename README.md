@@ -6,8 +6,7 @@ or through alternative login options such as OTP, Google, or LinkedIn.
 ![image](https://github.com/KaifullaKazim/Login-Page-Infollion/assets/113112009/33aa6ee6-57e4-446c-84df-c302cb92a6ed)
 
 
-Link to visit the site..
-Link:https://login-page-infollion.netlify.app/
+Link to visit the site--https://login-page-infollion.netlify.app/
 
 Compatibility:-
 The login page template is designed to be compatible with modern web browsers and responsive on various devices.
